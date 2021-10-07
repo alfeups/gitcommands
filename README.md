@@ -21,7 +21,7 @@ git branch -m nomeBranchAntiga  nomeBranchNova -> mudar nome de uma branch para 
 git branch -d branchQueQuerDeletar -> deletar uma branch
 git merge nomeBranch -> as branches irão apontar para a mesma HEAD
 git stash save “mensagem” -> pega tudo que está no staged área e adiciona numa caixa, como se fosse um array, você pode adicionar vários stashes.
-git stash list -> vai mostrar o índice do stash, qual branch esta e a mensagem com a descrição da modificação. Ex: stash@{0}: On <branchName>: <mensagemDescricaoDaMudanca>  -> não vai aparecer no git status como pendente, pois está guardado.
+git stash list -> vai mostrar o índice do stash, qual branch esta e a mensagem com a descrição da modificação. Ex: stash@{0}: On <branchName>: <mensagemDescricaoDaMudanca>  ->> não vai aparecer no git status como pendente, pois está guardado.
 git stash -> checa se há diretório de trabalho salvo e indexado com o estado de WIP(work in progress) on <branch>:
 git stash pop 1(indiceDaAlteração) -> abrir a “caixa” onde estava guardada as info no stash, neste caso no índice 1.
 git stash clear -> apagar tudo que estiver no stash.
